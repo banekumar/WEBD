@@ -1,0 +1,11 @@
+.container{
+    border: 2px solid black;
+    width:500px;
+    height: 300px;
+    padding: 50px;
+    background-color: rgb(255, 252, 155);
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    
+}

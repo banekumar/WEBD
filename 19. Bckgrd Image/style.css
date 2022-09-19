@@ -1,0 +1,24 @@
+.container{
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    background-image: url(pic1.jpg);
+    background-size:500px 500px;
+    background-repeat: no-repeat;
+    /* background-position: 50px 50px; */
+
+}
+.head1{
+    margin-left: 165px;
+    margin-top: 50px;
+}
+.wlcm{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(70, 68, 68);
+
+}
+.para{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(80, 78, 78);
+    line-height: 0px;
+}

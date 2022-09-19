@@ -1,0 +1,32 @@
+/* .container{
+    display: inline;
+} */
+
+
+.container1{
+    border: 2px solid black;
+    width: 100px ;
+    height: 300px;
+    background-color: rgb(43, 114, 176);
+     
+
+}
+.container2{
+    border: 2px solid black;
+    width: 100px ;
+    height: 300px;
+    background-color: rgb(49, 58, 66);
+    
+}
+.container3{
+    border: 2px solid black;
+    width: 100px ;
+    height: 300px;
+    background-color: rgb(70, 190, 142);
+}
+.container4{
+    border: 2px solid black;
+    width: 100px ;
+    height: 300px;
+    background-color: rgb(185, 205, 37);
+}

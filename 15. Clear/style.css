@@ -1,0 +1,30 @@
+
+.container{
+    border: solid 2px red;
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: rgb(113, 204, 174); 
+    float: left;
+
+}
+.container1{
+    border: solid 2px red;
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 50px;
+    background-color: rgb(226, 240, 41);  
+    float: left; 
+
+}
+.container2{
+    border: solid 2px red;
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 50px;
+    background-color: rgb(1, 48, 32);   
+    float: left;
+}
