@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Nested Grid</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica;
+   
+    }
+    h1{
+        padding: 0 0 0 40px;
+        text-align: center;
+    }
+    .container{
+        background: wheat;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,150px);
+        grid-gap: 10px;
+    }
+    .item1{background: orange;}
+    .item2{background: green;}
+    .item3{
+        background: rgba(166, 70, 187, 0.726);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        padding: 10px;
+
+    }
+    .item3 > div{
+        /* background: #fff; */
+        color: red;
+    }
+    .item4{
+        background: pink;
+    }
+    .items{
+        font-family: Arial, Helvetica;
+        padding: 20px 20px;
+
+    }
+    .subitems1{background: rgba(243, 201, 34, 0.879);}
+    .subitems2{background: rgba(37, 190, 165, 0.785);}
+    .subitems3{background: rgb(103, 183, 33);}
+
+
+
+
+
+</style>
+<body>
+    <h1>CSS Nested Grid</h1>
+    <div class="container">
+        <div class="items item1">One</div>
+        <div class="items item2">Two</div>
+        <div class="items item3">
+            <div class="subitems1">Three(1)</div>
+            <div class="subitems2">Three(2)</div>
+            <div class="subitems3">Three(3)</div>
+        </div>
+        <div class="items item4">Four</div>
+    </div>
+    
+</body>
+</html>
